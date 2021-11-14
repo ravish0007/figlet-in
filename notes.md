@@ -23,3 +23,5 @@ hacking with figlet is quite pending also quite daunting, few days ago had to in
 
 README in figlet source is the only way to understand font format
 
+figlet font format with unicode is a gamble with the time, I want something to work, I'll produce a little spagetti for time being.
+atleast kannada to get working as it is my mother tongue
