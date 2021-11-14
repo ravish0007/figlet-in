@@ -21,9 +21,26 @@ chmod +x banner.py
 
 ```
 
+## Setup Docker way :(
+As no setup instructions and less support to other major operating system
+
+```
+docker build . -t banner
+```
+
 ## Usage
 ```
 ./banner.py string
+```
+
+## Usage (Docker)
+```
+docker run -it banner /figlet-in/banner.py string
+```
+
+## Test (docker)
+```
+docker run -it banneer python3 /figlet-in/test.py
 ```
 
 
