@@ -1,6 +1,11 @@
 # figlet-in
 Figlet font for Indian languages
 
+## Disclaimer
+Due to short amount of time, it has become banner like,
+nevertheless it can be hacked quite easily, my anxiety said "F$#k it! Ship it"
+
+
 TODO: <br>
 [x] Extract unicode ranges for Indian Languages <br>
 [x] Generate image for each unicode character <br>
