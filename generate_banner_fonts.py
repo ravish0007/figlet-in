@@ -8,6 +8,9 @@ def call_jp2a(image_dir, output_dir, width=30):
         with open( os.path.join(output_dir, f'{code}.txt'), "w") as outfile:
             subprocess.Popen(['jp2a', f'--width={width}', '--chars= #', os.path.join(image_dir,image)], stdout=outfile)      # hack around with chars
 
+def image_to_banner(image_file):
+        result = subprocess.Popen(['jp2a', '--chars= #', image_file], stdout=subprocess.PIPE)
+        return result.stdout.decode()
 
 
 if __name__ == "__main__":
