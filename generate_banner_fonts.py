@@ -10,7 +10,7 @@ def call_jp2a(image_dir, output_dir, width=30):
 
 def image_to_banner(image_file):
         result = subprocess.Popen(['jp2a', '--chars= #', image_file], stdout=subprocess.PIPE)
-        return result.stdout.decode()
+        return result.stdout.read().decode()
 
 
 if __name__ == "__main__":
