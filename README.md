@@ -27,7 +27,7 @@ chmod +x banner.py
 ```
 
 ## Setup Docker way :(
-As no setup instructions and less support to other major operating system
+As no setup instructions and less support to other major operating systems
 
 ```
 docker build . -t banner
@@ -221,3 +221,4 @@ python3 test.py
 ```
 
 
+##P.S: If you found typo above, forgive me, I'll correct it :)
